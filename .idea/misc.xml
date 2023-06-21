@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ComposerJsonPluginSettings">
+    <unboundedVersionInspectionSettings>
+      <excludedPackages>
+        <pattern pattern="roave/security-advisories" />
+      </excludedPackages>
+    </unboundedVersionInspectionSettings>
+    <customRepositories />
+    <composerUpdateOptions />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4.7" />
+</project>
