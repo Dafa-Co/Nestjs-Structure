@@ -3,9 +3,6 @@
 Nestjs project Description.
 
 ## Requirements
-
-Before starting, make sure you have at least those components on your workstation:
-
 | Name                          | Version |
 |:------------------------------|:--------|
 | [NodeJS](https://nodejs.org/) | 19+     |
