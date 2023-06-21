@@ -13,7 +13,7 @@ export const loggerOptions: Params = {
     // timestamp: stdTimeFunctions.isoTime,
     quietReqLogger: true,
     genReqId: (req): ReqId => (<Request>req).header('X-Request-Id') || nanoid(),
-    ...([process.env.NODE_ENV, process.env.ENV].includes('production')
+    ...([process.env.NODE_ENV, process.env.APP_ENV].includes('production')
       ? {}
       : {
         level: 'debug',

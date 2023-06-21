@@ -82,8 +82,6 @@ npm run test:e2e
    ```
 2. Run:
    ```shell
-   # Define environment variable yourself.
-   # NODE_ENV=production PORT=8000 NO_COLOR=true node dist/app
    node dist/app
    # OR
    npm start

@@ -12,7 +12,7 @@ import { AppModule } from './app.module';
  * https://github.com/nestjs/nest/issues/2249#issuecomment-494734673
  */
 async function bootstrap(): Promise<string> {
-  const isProduction = [process.env.NODE_ENV, process.env.ENV].includes('production');
+  const isProduction = [process.env.NODE_ENV, process.env.APP_ENV].includes('production');
   const app = await NestFactory.create<NestExpressApplication>(AppModule, {
     bufferLogs: true,
   });
